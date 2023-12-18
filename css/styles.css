@@ -161,7 +161,7 @@ background-color: #2e2f42;
   margin: 0 auto;
   flex-shrink: 0;
   text-align: center;
-  max-width: 1440px;
+  max-width: 1158px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -330,6 +330,10 @@ margin-bottom: 32px;
 
 .social-item{
   padding-left: 24px;
+  background-color: #2E2F42;
+}
+social-icon{
+  background-color: #2E2F42;
 }
 
 /* Portfolio */
