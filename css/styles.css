@@ -190,7 +190,7 @@ img {
   margin: 0 auto;
   flex-shrink: 0;
   text-align: center;
-  max-width: 1140px;
+  max-width: 1440px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -199,7 +199,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(/images/ofice.jpg);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    
 }
 
 .hero-title {
@@ -232,6 +232,8 @@ img {
   display: block;
   height: 56px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    ;
 }
 
 .main-page-btn:hover {
@@ -337,7 +339,9 @@ margin-bottom: 8px;
 }
 
 .list {
-  width: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -347,8 +351,11 @@ margin-bottom: 8px;
     justify-content: center;
     align-items: center;
     gap: 24px;
+}
 
-  
+.heading-list{
+  width: 40px;
+  height: 40px;
 }
 
 .main-subtitle {
@@ -388,6 +395,10 @@ margin-bottom: 8px;
   margin-bottom: 32px;
   transition: backgraund-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.social-link:hover{background-color: #404bbf;}
+.social-link:active{background-color: #404bbf;}
+
 social-icon{
   fill: #404bbf;
 }
