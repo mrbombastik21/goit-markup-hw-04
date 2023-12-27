@@ -77,21 +77,6 @@ img {
   align-items: center;
 }
 
-.logo {
-  color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  margin-right: 76px;
-  width: 115px;
-  text-decoration: none;
-}
 
 .logo-span-header {
   color: #2e2f42;
