@@ -389,6 +389,7 @@ margin-bottom: 8px;
   justify-content: center;
   gap: 24px;
   align-items: center;
+  transition: backgraund-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-item {
@@ -399,7 +400,7 @@ margin-bottom: 8px;
     justify-content: center;
     align-items: center;
     top: 32px;
-    transition: backgraund-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .social-link {
   display: flex;
@@ -462,9 +463,9 @@ social-icon{
 }
 
 .portfolio-li:hover .overlay{
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-      0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
       transform:translateY(0%);;
 }
 
